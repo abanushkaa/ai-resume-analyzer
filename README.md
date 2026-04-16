@@ -1,214 +1,115 @@
-# Welcome to React Router!
+🚀 AI Resume Analyzer
+🧠 Smart Resume Matching with AI + ATS Scoring
+<p align="center"> <img src="https://img.shields.io/badge/React-18-blue?logo=react" /> <img src="https://img.shields.io/badge/TypeScript-Enabled-blue?logo=typescript" /> <img src="https://img.shields.io/badge/Vite-Fast-purple?logo=vite" /> <img src="https://img.shields.io/badge/TailwindCSS-Styled-38bdf8?logo=tailwindcss" /> <img src="https://img.shields.io/badge/AI-Powered-green" /> <img src="https://img.shields.io/badge/Status-Live-success" /> </p>
+🌟 Overview
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-##⚙️ Tech Stack**
-React is a popular open‑source JavaScript library for building user interfaces using reusable components and a virtual DOM, enabling efficient, dynamic single-page and native apps.
-
-React Router v7 is the go‑to routing library for React apps, offering nested routes, data loaders/actions, error boundaries, code splitting, and SSR support—all with a smooth upgrade path from v6.
-
-Puter.com is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as: A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
-
-Puter.js is a tiny client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) straight into your browser app—no backend needed and costs borne by users.
-
-Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
-
-TypeScript is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
-
-Vite is a fast build tool and dev server using native ES modules for instant startup, hot‑module replacement, and Rollup‑powered production builds—perfect for modern web development.
-
-Zustand is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
-
-## Features
-👉 Easy & convenient auth: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
-
-👉 Resume upload & storage: Let users upload and store all their resumes in one place, safely and reliably.
-
-👉 AI resume matching: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
-
-👉 Reusable, modern UI: Built with clean, consistent components for a great-looking and maintainable interface.
-
-👉 Code Reusability: Leverage reusable components and a modular codebase for efficient development.
-
-👉 Cross-Device Compatibility: Fully responsive design that works seamlessly across all devices.
-
-👉 Modern UI/UX: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-And many more, including code architecture and reusability.
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-  
-**Live Project:** https://puter.com/app/my-ai-resume-analyzer
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
-
-Project Banner
-Static Badge  TypeScript Static Badge
-AI Resume Analyzer
-Build this project step by step with our detailed tutorial on JavaScript Mastery YouTube. Join the JSM family!
-📋 Table of Contents
-✨ Introduction
-⚙️ Tech Stack
-🔋 Features
-🤸 Quick Start
-🔗 Assets
-🚀 More
-🚨 Tutorial
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, JavaScript Mastery.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-
-
-✨ Introduction
 Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+🔗 Live Demo
 
+👉 Try it here:
+https://puter.com/app/my-ai-resume-analyzer
 
-
+🖼️ Preview
+<p align="center"> <img src="https://via.placeholder.com/800x400.png?text=AI+Resume+Analyzer+Preview" alt="Project Preview"/> </p>
 ⚙️ Tech Stack
-React is a popular open‑source JavaScript library for building user interfaces using reusable components and a virtual DOM, enabling efficient, dynamic single-page and native apps.
+Category	Technology
+Frontend	React, React Router v7
+Styling	Tailwind CSS, shadcn/ui
+State Mgmt	Zustand
+Language	TypeScript
+Build Tool	Vite
+Backend Logic	Puter.js (Serverless)
+Cloud & Storage	Puter.com
+AI Integration	GPT-based evaluation
+🔥 Features
 
-React Router v7 is the go‑to routing library for React apps, offering nested routes, data loaders/actions, error boundaries, code splitting, and SSR support—all with a smooth upgrade path from v6.
+✨ AI Resume Matching
 
-Puter.com is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as: A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
+Analyze resumes against job descriptions
+Generate ATS scores instantly
 
-Puter.js is a tiny client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) straight into your browser app—no backend needed and costs borne by users.
+🔐 Authentication (No Backend!)
 
-Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+Fully browser-based auth using Puter.js
 
-TypeScript is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
+📂 Resume Management
 
-Vite is a fast build tool and dev server using native ES modules for instant startup, hot‑module replacement, and Rollup‑powered production builds—perfect for modern web development.
+Upload, store, and manage multiple resumes
 
-Zustand is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+📊 Smart Feedback System
 
-🔋 Features
-👉 Easy & convenient auth: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
+Personalized suggestions for improvement
 
-👉 Resume upload & storage: Let users upload and store all their resumes in one place, safely and reliably.
+🎨 Modern UI/UX
 
-👉 AI resume matching: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
+Clean, responsive interface with Tailwind CSS
 
-👉 Reusable, modern UI: Built with clean, consistent components for a great-looking and maintainable interface.
+♻️ Reusable Architecture
 
-👉 Code Reusability: Leverage reusable components and a modular codebase for efficient development.
+Scalable and modular component design
 
-👉 Cross-Device Compatibility: Fully responsive design that works seamlessly across all devices.
+📱 Fully Responsive
 
-👉 Modern UI/UX: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-And many more, including code architecture and reusability.
-
-🤸 Quick Start
-Follow these steps to set up the project locally on your machine.
-
-Prerequisites
-
-Make sure you have the following installed on your machine:
-
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
-
-git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
+Works across mobile, tablet, and desktop
+🧠 How It Works
+🚀 Getting Started
+📦 Installation
+git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
-Installation
-
-Install the project dependencies using npm:
-
 npm install
-Running the Project
-
+💻 Run Locally
 npm run dev
-Open http://localhost:5173 in your browser to view the project.
 
-🔗 Assets
-Assets and snippets used in the project can be found in the video kit.
+👉 Open: http://localhost:5173
 
-Video Kit Banner
-🚀 More
-Advance your skills with Next.js Pro Course
+🏗️ Build
+npm run build
+🐳 Docker Deployment
+docker build -t ai-resume-analyzer .
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+docker run -p 3000:3000 ai-resume-analyzer
+📁 Project Structure
+├── app/
+├── components/
+├── routes/
+├── store/
+├── build/
+│   ├── client/
+│   └── server/
+├── public/
+└── package.json
+💡 Why This Project Stands Out
 
-Project Banner
+✔️ Real-world AI application (not just CRUD)
+✔️ Serverless architecture (no backend needed)
+✔️ Clean, scalable frontend architecture
+✔️ Uses modern tools (React Router v7, Zustand, Vite)
+✔️ Strong product thinking (UX + functionality)
+
+📚 Learnings & Takeaways
+Implemented AI-driven evaluation systems
+Built full-stack-like functionality without backend
+Improved state management & routing architecture
+Designed production-ready UI components
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+Create a new branch
+Make your changes
+Submit a PR 🚀
+📬 Contact
+
+👩‍💻 Anushka Baranwal
+
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/your-profile
+⭐ Show Your Support
+
+If you like this project:
+
+🌟 Star this repo
+🍴 Fork it
+📢 Share it
