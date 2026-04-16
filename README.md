@@ -6,110 +6,88 @@
 Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
 
 🔗 Live Demo
-
-👉 Try it here:
 https://puter.com/app/my-ai-resume-analyzer
 
-🖼️ Preview
-<p align="center"> <img src="https://via.placeholder.com/800x400.png?text=AI+Resume+Analyzer+Preview" alt="Project Preview"/> </p>
 ⚙️ Tech Stack
-Category	Technology
-Frontend	React, React Router v7
-Styling	Tailwind CSS, shadcn/ui
-State Mgmt	Zustand
-Language	TypeScript
-Build Tool	Vite
-Backend Logic	Puter.js (Serverless)
-Cloud & Storage	Puter.com
-AI Integration	GPT-based evaluation
+-React – A popular open-source JavaScript library for building user interfaces using reusable components and a virtual DOM.
+-React Router v7 – Advanced routing with nested routes, data loaders/actions, error boundaries, and SSR support.
+-Puter.com – A privacy-first cloud platform for storing files, apps, and data securely.
+-Puter.js – Client-side SDK enabling serverless auth, storage, database, and AI integrations.
+-Tailwind CSS – Utility-first CSS framework for rapid UI development.
+-TypeScript – Strongly typed JavaScript for better scalability and error detection.
+-Vite – Fast development server with instant HMR and optimized builds.
+-Zustand – Lightweight state management with minimal boilerplate.
+
 🔥 Features
 
-✨ AI Resume Matching
+👉 Easy & convenient auth
+Handle authentication entirely in the browser using Puter.js—no backend required.
+👉 Resume upload & storage
+Upload and securely store resumes in one centralized location.
+👉 AI resume matching
+Match resumes with job descriptions and generate ATS scores with personalized feedback.
+👉 Reusable, modern UI
+Clean and maintainable component-based UI.
+👉 Code Reusability
+Modular architecture for scalable development.
+👉 Cross-Device Compatibility
+Fully responsive across devices.
+👉 Modern UI/UX
+Built using Tailwind CSS and shadcn/ui for a sleek interface.
 
-Analyze resumes against job descriptions
-Generate ATS scores instantly
 
-🔐 Authentication (No Backend!)
-
-Fully browser-based auth using Puter.js
-
-📂 Resume Management
-
-Upload, store, and manage multiple resumes
-
-📊 Smart Feedback System
-
-Personalized suggestions for improvement
-
-🎨 Modern UI/UX
-
-Clean, responsive interface with Tailwind CSS
-
-♻️ Reusable Architecture
-
-Scalable and modular component design
-
-📱 Fully Responsive
-
-Works across mobile, tablet, and desktop
-🧠 How It Works
-🚀 Getting Started
-📦 Installation
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
-npm install
-💻 Run Locally
-npm run dev
-
-👉 Open: http://localhost:5173
-
-🏗️ Build
-npm run build
-🐳 Docker Deployment
-docker build -t ai-resume-analyzer .
-
-docker run -p 3000:3000 ai-resume-analyzer
 📁 Project Structure
+
 ├── app/
+
 ├── components/
+
 ├── routes/
+
 ├── store/
+
 ├── build/
+
 │   ├── client/
+
 │   └── server/
+
 ├── public/
+
 └── package.json
+
 💡 Why This Project Stands Out
 
+
 ✔️ Real-world AI application (not just CRUD)
+
 ✔️ Serverless architecture (no backend needed)
+
 ✔️ Clean, scalable frontend architecture
+
 ✔️ Uses modern tools (React Router v7, Zustand, Vite)
+
 ✔️ Strong product thinking (UX + functionality)
 
+
 📚 Learnings & Takeaways
+
 Implemented AI-driven evaluation systems
+
 Built full-stack-like functionality without backend
+
 Improved state management & routing architecture
+
 Designed production-ready UI components
-🤝 Contributing
 
-Contributions are welcome!
 
-Fork the repo
-Create a new branch
-Make your changes
-Submit a PR 🚀
-📬 Contact
 
-👩‍💻 Anushka Baranwal
-
-GitHub: https://github.com/your-username
-LinkedIn: https://linkedin.com/in/your-profile
 ⭐ Show Your Support
 
 If you like this project:
 
 🌟 Star this repo
+
 🍴 Fork it
+
 📢 Share it
