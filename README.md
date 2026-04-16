@@ -44,6 +44,8 @@ And many more, including code architecture and reusability.
 - 🔒 TypeScript by default
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
+  
+**Live Project:** https://puter.com/app/my-ai-resume-analyzer
 
 ## Getting Started
 
