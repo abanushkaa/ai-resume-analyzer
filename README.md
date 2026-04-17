@@ -10,28 +10,41 @@ https://puter.com/app/my-ai-resume-analyzer
 
 ⚙️ Tech Stack
 -React – A popular open-source JavaScript library for building user interfaces using reusable components and a virtual DOM.
+
 -React Router v7 – Advanced routing with nested routes, data loaders/actions, error boundaries, and SSR support.
+
 -Puter.com – A privacy-first cloud platform for storing files, apps, and data securely.
+
 -Puter.js – Client-side SDK enabling serverless auth, storage, database, and AI integrations.
+
 -Tailwind CSS – Utility-first CSS framework for rapid UI development.
+
 -TypeScript – Strongly typed JavaScript for better scalability and error detection.
+
 -Vite – Fast development server with instant HMR and optimized builds.
+
 -Zustand – Lightweight state management with minimal boilerplate.
 
 🔥 Features
 
 👉 Easy & convenient auth
 Handle authentication entirely in the browser using Puter.js—no backend required.
+
 👉 Resume upload & storage
 Upload and securely store resumes in one centralized location.
+
 👉 AI resume matching
 Match resumes with job descriptions and generate ATS scores with personalized feedback.
+
 👉 Reusable, modern UI
 Clean and maintainable component-based UI.
+
 👉 Code Reusability
 Modular architecture for scalable development.
+
 👉 Cross-Device Compatibility
 Fully responsive across devices.
+
 👉 Modern UI/UX
 Built using Tailwind CSS and shadcn/ui for a sleek interface.
 
